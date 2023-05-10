@@ -6,6 +6,7 @@ const SidebarLogo = () => {
 
   return (
     <div
+      onClick={() => router.push('/')}
       className="
       rounder-full
       h-14
